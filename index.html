@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places Traveled</title>
+</head>
+<body>
+  <form id="new-places">
+    <h1>Places</h1>
+    <h2>Locations</h2>
+      <label for="new-country">Country</label>
+      <input type="text" id="new-country">
+      <label for="new-city">City</label>
+      <input type="text" id="new-city">
+      <label for="new-times">Times</label>
+      <input type="text" id="new-times">
+      <label for="new-length">Length</label>
+      <input type="text" id="new-length">
+
+    <button type="submit">Add</button>
+    <ul id="locations">
+    </ul>
+    <div id="show-locations">
+      <p>Country: <span class="country"></span></p>
+      <p>City: <span class="city"></span></p>
+      <p>Times: <span class="times"></span></p>
+      <p>Length: <span class="length"></span></p>
+    </div>
+  </form>
+    <div id="buttons">
+       <p> <span id="output"><span></span></p>
+      </div>
+</body>
+</html>
